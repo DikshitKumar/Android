@@ -42,5 +42,15 @@
             android:layout_marginTop="38dp"
             android:onClick="login"
             android:text="Login" />
+
+        <Button
+            android:id="@+id/showPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:onClick="showPassword"
+            android:text="Show Password" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
